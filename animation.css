@@ -1,0 +1,26 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: palevioletred;
+    /* transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in; */
+    transition: all .5s linear;
+}
+div:hover {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+}
